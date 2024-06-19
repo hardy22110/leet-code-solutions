@@ -1,6 +1,6 @@
 import { romanToInt } from './roman-to-integer'
 
-describe.only('13.roman-to-integer', () => {
+describe('13.roman-to-integer', () => {
   test('Input: s = "III", Output: 3', () => {
     expect(romanToInt('III')).toEqual(3)
   })
